@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '9b079bb9-758f-452e-a3e8-8deed3054af2'
+  azureServiceConnectionId: '45f41b15-682c-468e-9248-660ab2eb1add'
 
   # Web app name
   webAppName: 'continuous-delivery-app'
