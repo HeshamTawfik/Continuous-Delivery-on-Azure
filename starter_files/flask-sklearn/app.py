@@ -55,7 +55,7 @@ def predict():
     """
 
     try:
-        clf = joblib.load("starter_files/flask-sklearn/Housing_price_model/GradientBoostingRegressor.joblib")
+        clf = joblib.load("GradientBoostingRegressor.joblib")
     except:
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
