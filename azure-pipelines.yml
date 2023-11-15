@@ -80,7 +80,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : '
+            displayName: 'Deploy Azure Web App : continuous-delivery-app'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
