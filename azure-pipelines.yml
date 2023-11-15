@@ -8,22 +8,22 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'fe944b2a-bd38-41df-ae67-5451aa139e71'
+  azureServiceConnectionId: 'f423a9da-bf76-4e9b-837d-53546788d099'
   
   # Web app name
-  webAppName: 'rob-udacity-webapp'
+  webAppName: 'continuous-delivery-app'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'rob-udacity-webapp'
+  environmentName: 'continuous-delivery-app'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
   
-  # Python version: 3.7
-  pythonVersion: '3.7'
+  # Python version: 3.9
+  pythonVersion: '3.9'
 
 stages:
 - stage: Build
@@ -80,7 +80,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : rob-udacity-webapp'
+            displayName: 'Deploy Azure Web App : continuous-delivery-app'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
