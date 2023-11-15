@@ -55,7 +55,7 @@ def predict():
     """
 
     try:
-        clf = joblib.load("'boston_housing_prediction.joblib'")
+        clf = joblib.load("LinearRegression.joblib")
     except:
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
