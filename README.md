@@ -27,7 +27,7 @@ See [here](https://youtu.be/FHRAl93XgG8) for a YouTube video demonstrating the p
 ## Deploy the app in Azure Cloud Shell
 In Azure Cloud Shell, clone the repo:
 ```
-git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
+git clone git@github.com:HeshamTawfik/Continuous-Delivery-on-Azure.git
 ```
 ![screenshot-git_clone.png](screenshots/screenshot-git_clone.png) 
 
