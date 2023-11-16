@@ -5,8 +5,8 @@ class WebsiteTestUser(HttpUser):
 
     @task(1)
     def test1(self):
-        self.client.get("https://jose-flaskpipelines.azurewebsites.net")
+        self.client.get("https://continuous-delivery-app.azurewebsites.net")
 
     @task(2)
     def test2(self):
-        self.client.post("https://jose-flaskpipelines.azurewebsites.net:443/predict")
+        self.client.post("https://continuous-delivery-app.azurewebsites.net:443/predict")
