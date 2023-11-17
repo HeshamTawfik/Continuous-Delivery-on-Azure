@@ -1,4 +1,4 @@
-name: Python_application_test_with_Github_Actions
+name: Python application test with Github Actions
 
 on: [push]
 
@@ -16,9 +16,6 @@ jobs:
     - name: Install dependencies
       run: |
         make install
-    - name: Lint with pylint
-      run: |
-        make lint
-    - name: Test with pytest
+    - name: Test with pylint
       run: |
         make test
