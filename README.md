@@ -13,7 +13,7 @@ This project contains a python application that is designed to predict housing p
 Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps, and the updated code is also automatically tested in Azure DevOps and deployed to the Azure App Service. 
 
 Here is an architectural diagram:
-photos/screenshot-architectural-diagram2.PNG
+[photos/screenshot-architectural-diagram2.PNG](https://github.com/HeshamTawfik/Continuous-Delivery-on-Azure/blob/e78f20f7c7f89d7f1fc539da9761d024f17cf756/photos/screenshot-architectural-diagram2.PNG)
 
 A [Trello](https://trello.com/invite/b/JB4a3Vp9/ATTI173d4a5d11e32f31144b64ae13b48c54578F3A5B/building-ci-cd-pipeline) board has been created to keep track of tasks to be completed.
 
