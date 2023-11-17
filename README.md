@@ -1,11 +1,8 @@
-![Python application test with Github Actions](https://github.com/bobfoster1299/building-a-cicd-pipeline2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
-
 By Hesham Tawfik
 
 16/11/2023
 
 # Introduction
-This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
 
 This project contains a python application that is designed to predict housing prices in Boston (I did not create the python app myself). This repo will enable you to:
 - Deploy the app in Azure CloudShell
@@ -16,7 +13,7 @@ Any commits to the GitHub repo trigger automated code testing using GitHub Actio
 Here is an architectural diagram:
 ![architectural-diagram.png](architectural-diagram.png)
 
-A [Trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board has been created to keep track of tasks to be completed.
+A [Trello](https://trello.com/invite/b/JB4a3Vp9/ATTI173d4a5d11e32f31144b64ae13b48c54578F3A5B/building-ci-cd-pipeline) board has been created to keep track of tasks to be completed.
 
 A [spreadsheet](project-schedule.xlsx) has been created to manage the project schedule.
 
