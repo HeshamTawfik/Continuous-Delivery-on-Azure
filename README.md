@@ -30,7 +30,7 @@ git clone git@github.com:HeshamTawfik/Continuous-Delivery-on-Azure.git
 
 Change into the new directory:
 ```
-cd building-a-cicd-pipeline2
+cd Continuous-Delivery-on-Azure
 ```
 
 Create a virtual environment:
@@ -71,7 +71,7 @@ The output should match the below:
 
 Create an App Service in Azure. In this example the App Service is called rob-udacity-webapp and the resource group is called rob-udacity-project:
 ```
-az webapp up -n rob-udacity-webapp -g rob-udacity-project
+az webapp up -n Continuous-Delivery-on-Azure -g Continuous-Delivery-on-Azure-project
 ```
 
 Next, create the pipeline in Azure DevOps. More information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:
@@ -104,7 +104,7 @@ You can also visit the URL of the App Service via the browser and you should see
 
 View the app logs:
 ```
-az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
+az webapp log tail -g Continuous-Delivery-on-Azure-project --name Continuous-Delivery-on-Azure
 ```
 ![screenshot-logs.png](screenshots/screenshot-logs.png)
 
