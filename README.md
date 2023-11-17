@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/HeshamTawfik/Continuous-Delivery-on-Azure/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/HeshamTawfik/Continuous-Delivery-on-Azure/actions/workflows/pythonapp.yml)
+
 By Hesham Tawfik
 
 16/11/2023
