@@ -5,7 +5,7 @@ class WebsiteTestUser(HttpUser):
 
     @task(1)
     def test1(self):
-        self.client.get("https://continuous-delivery-on-azure.azurewebsites.net")
+        self.client.get("https://continuous-delivery-on-azure.azurewebsites.net/")
 
     @task(2)
     def test2(self):
