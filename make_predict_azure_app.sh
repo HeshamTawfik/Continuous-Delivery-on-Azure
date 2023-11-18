@@ -25,5 +25,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://continuous-delivery-app.azurewebsites.net:$PORT/predict 
+     -X POST https://continuous-delivery-on-azure.azurewebsites.net/:$PORT/predict 
      #your application name <yourappname>goes here
