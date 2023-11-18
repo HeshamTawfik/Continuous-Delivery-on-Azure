@@ -20,7 +20,7 @@ A [Trello](https://trello.com/invite/b/JB4a3Vp9/ATTI173d4a5d11e32f31144b64ae13b4
 
 A [spreadsheet](project-schedule.xlsx) has been created to manage the project schedule.
 
-See here for a YouTube video demonstrating the project.
+See [here](https://youtu.be/zaF4OrpQsPU)) for a YouTube video demonstrating the project.
 
 # Instructions
 
