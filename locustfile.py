@@ -9,4 +9,4 @@ class WebsiteTestUser(HttpUser):
 
     @task(2)
     def test2(self):
-        self.client.post("https://continuous-delivery-on-azure.azurewebsites.net:443/predict")
+        self.client.post("https://continuous-delivery-on-azure.azurewebsites.net/:443/predict")
