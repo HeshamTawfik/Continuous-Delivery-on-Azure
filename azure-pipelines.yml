@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: '11b5a752-a8cd-48e0-8d24-b0903f147333'
   
   # Web app name
-  webAppName: 'continuous-delivery-app'
+  webAppName: 'Continuous-Delivery-on-Azure'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'continuous-delivery-app'
+  environmentName: 'Continuous-Delivery-on-Azure'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
