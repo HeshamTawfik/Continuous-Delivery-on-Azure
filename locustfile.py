@@ -1,26 +1,41 @@
+import time
 from locust import HttpUser, task, between
 
 class WebsiteTestUser(HttpUser):
     wait_time = between(0.5, 3.0)
 
+    def on_start(self):
+        """ on_start is called when a Locust start before any task is scheduled """
+        pass
+
+    def on_stop(self):
+        """ on_stop is called when the TaskSet is stopping """
+        pass
+
     @task(1)
-    def test1(self):
-        self.client.get("http://localhost:5000")
+    def index(self):
+        self.client.get("https://continuous-delivery-on-azure.azurewebsites.net/")
 
     @task(2)
-    def test2(self):
-        data = {
-            "CHAS": {"0": 0},
-            "RM": {"0": 6.575},
-            "TAX": {"0": 296.0},
-            "PTRATIO": {"0": 15.3},
-            "B": {"0": 396.9},
-            "LSTAT": {"0": 4.98}
-        }
-
-        # Perform some HTTP request using the data
-        response = self.client.post("http://localhost:5000/predict", json=data)
-
-        # You can print the response if needed
-        print(response.text)
-        
+    def predict(self):
+        self.client.post("/predict",{
+       "CHAS":{
+          "0":0
+       },
+       "RM":{
+          "0":6.575
+       },
+       "TAX":{
+          "0":296.0
+       },
+       "PTRATIO":{
+          "0":15.3
+       },
+       "B":{
+          "0":396.9
+       },
+       "LSTAT":{
+          "0":4.98
+       }
+    },
+    headers="Content-Type: application/json")
