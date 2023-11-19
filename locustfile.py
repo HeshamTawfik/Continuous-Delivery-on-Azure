@@ -19,7 +19,7 @@ class WebsiteTestUser(HttpUser):
         }
 
         # Perform some HTTP request using the data
-        response = self.client.post("http://localhost:5000", json=data)
+        response = self.client.post("http://localhost:5000/predict", json=data)
 
         # You can print the response if needed
         print(response.text)
