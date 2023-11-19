@@ -110,10 +110,8 @@ Open a browser and go to [http://localhost:8089](http://localhost:8089). Enter t
 
 You can then watch the load test:
 
-![Screenshot from 2023-11-18 21-51-05](https://github.com/HeshamTawfik/Continuous-Delivery-on-Azure/assets/33587812/6efe12d1-6f94-4888-a54d-598f90bf8c38)
 
-
-![Screenshot from 2023-11-18 21-50-22](https://github.com/HeshamTawfik/Continuous-Delivery-on-Azure/assets/33587812/a4710924-5bd8-4642-81ca-271b54e785e5)
+<img width="959" alt="locust" src="https://github.com/HeshamTawfik/Continuous-Delivery-on-Azure/assets/33587812/d8569616-3ec0-4445-85f5-a57836dfd04d">
 
 
 
